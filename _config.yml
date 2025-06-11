@@ -1,7 +1,7 @@
 # The Site Configuration
 
 # Import the theme
-remote_theme: cotes2020/jekyll-theme-chirpy
+theme: jekyll-theme-chirpy
 plugins:
   - jekyll-remote-theme
   - jekyll-paginate
@@ -91,7 +91,7 @@ pwa:
   cache:
     enabled: true # The option for PWA offline cache
     # Paths defined here will be excluded from the PWA cache.
-    # Usually its value is the `  ` of another website that
+    # Usually its value is the ` baseurl ` of another website that
     # shares the same domain name as the current website.
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA

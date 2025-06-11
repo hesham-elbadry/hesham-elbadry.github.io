@@ -8,6 +8,11 @@ gem "html-proofer", "~> 5.0", group: :test
 gem "jekyll", "~> 4.3.2"
 gem "jekyll-remote-theme", "~> 0.4.3"
 gem "jekyll-paginate"
+gem "csv"
+gem "base64"
+gem "logger"
+gem "fiddle"
+
 
 
 
