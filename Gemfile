@@ -5,7 +5,7 @@ source "https://rubygems.org"
 gem "jekyll-theme-chirpy", "~> 7.2", ">= 7.2.4"
 
 gem "html-proofer", "~> 5.0", group: :test
-gem "jekyll-remote-theme"
+gem "jekyll-remote-theme", "~> 0.4.3"
 
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
