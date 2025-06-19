@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Hesham Saleh</title>
   <subtitle>blog, hesham, github .</subtitle>
-  <updated>2025-06-19T19:06:19+03:00</updated>
+  <updated>2025-06-19T19:42:25+03:00</updated>
   <author>
     <name>Hesham Saleh Elbady</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/Spoofing-Any-Internal-Email/" rel="alternate" type="text/html" title="Spoofing Any Internal Email" />
     <published>2025-06-19T00:00:00+03:00</published>
   
-    <updated>2025-06-19T00:00:00+03:00</updated>
+    <updated>2025-06-19T19:06:43+03:00</updated>
   
     <id>http://localhost:4000/posts/Spoofing-Any-Internal-Email/</id>
     <content type="text/html" src="http://localhost:4000/posts/Spoofing-Any-Internal-Email/" />
@@ -40,9 +40,8 @@
 
   <summary>Whoami
 
-Description:
-Anonymous login vulnerability occurs when a system or service allows users to authenticate without valid credentials. This often happens in misconfigured FTP servers, SMB shares, and email servers, enabling unauthorized users to access sensitive files, directories, or system information. Attackers can exploit this vulnerability too.
-•	Gain unauthorized access to files and d...</summary>
+Introduction:
+During a recent security assessment, I uncovered a critical vulnerability in an SMTP server that allowed anyone to send emails without authentication. This anonymous login vulnerability could enable attackers to send spoofed emails, potentially leading to phishing, malware distribution, or data breaches. In this report, I’ll walk you through the discovery, demonstrate how ...</summary>
 
   </entry>
 
