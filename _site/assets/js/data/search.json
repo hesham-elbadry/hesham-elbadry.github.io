@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "Spoofing Any Internal Email",
+    "url": "/posts/Spoofing-Any-Internal-Email/",
+    "categories": "Network Penetration testing",
+    "tags": "Network Pentest",
+    "date": "2025-06-19 00:00:00 +0300",
+    
+
+
+
+
+
+    
+    "snippet": "WhoamiDescription:Anonymous login vulnerability occurs when a system or service allows users to authenticate without valid credentials. This often happens in misconfigured FTP servers, SMB shares, ...",
+    "content": "WhoamiDescription:Anonymous login vulnerability occurs when a system or service allows users to authenticate without valid credentials. This often happens in misconfigured FTP servers, SMB shares, and email servers, enabling unauthorized users to access sensitive files, directories, or system information. Attackers can exploit this vulnerability too.•\tGain unauthorized access to files and directories.•\tEnumerate users and system configurations.•\tUpload malicious files or exfiltrate data.Impact:In this scenario, i discovered an SMTP service that did not require authentication, allowing them to spoof emails within the internal network.Recommendation•\tDisable Anonymous Authentication:    o\tEnsure authentication is required for all services.    o\tRestrict anonymous access on SMTP.•\tImplement Strong Authentication:    o\tUse strong, unique passwords for all accounts.    o\tEnforce multi-factor authentication (MFA) where possible.POCDuring my enumeration process using Nmap and other tools, I discovered that port 25 was open. However, no service version was identified. I decided to connect to it using Telnet and Netcat, and that’s when I encountered a surprising result!1) Let’s connect to the SMTP service and try to send an email2) Let’s see if the email was sent.As we can see, the email was sent, and we were able to spoof internal emails."
+  },
+  
+  {
     "title": "Multiple ATO",
     "url": "/posts/Multiple_ATO/",
     "categories": "Web Application Penetration testing",

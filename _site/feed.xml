@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Hesham Saleh</title>
   <subtitle>blog, hesham, github .</subtitle>
-  <updated>2025-06-11T19:49:53+03:00</updated>
+  <updated>2025-06-19T18:15:16+03:00</updated>
   <author>
     <name>Hesham Saleh Elbady</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,34 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Spoofing Any Internal Email</title>
+    <link href="http://localhost:4000/posts/Spoofing-Any-Internal-Email/" rel="alternate" type="text/html" title="Spoofing Any Internal Email" />
+    <published>2025-06-19T00:00:00+03:00</published>
+  
+    <updated>2025-06-19T00:00:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/Spoofing-Any-Internal-Email/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Spoofing-Any-Internal-Email/" />
+    <author>
+      <name>Hesham Saleh Elbady</name>
+    </author>
+
+  
+    
+    <category term="Network Penetration testing" />
+    
+  
+
+  <summary>Whoami
+
+Description:
+Anonymous login vulnerability occurs when a system or service allows users to authenticate without valid credentials. This often happens in misconfigured FTP servers, SMB shares, and email servers, enabling unauthorized users to access sensitive files, directories, or system information. Attackers can exploit this vulnerability too.
+•	Gain unauthorized access to files and d...</summary>
+
+  </entry>
 
   
   <entry>
