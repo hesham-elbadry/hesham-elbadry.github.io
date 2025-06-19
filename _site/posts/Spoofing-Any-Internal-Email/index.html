@@ -722,6 +722,28 @@
 
       
     
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
 
     
   
@@ -819,9 +841,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="207 words"
+  title="419 words"
 >
-  <em>1 min</em> read</span>
+  <em>2 min</em> read</span>
 
         </div>
       </div>
@@ -872,16 +894,61 @@
     o	Use strong, unique passwords for all accounts.
     o	Enforce multi-factor authentication (MFA) where possible.</p>
 
-<h4 id="poc"><span class="me-2">POC</span><a href="#poc" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
-<p>During my enumeration process using Nmap and other tools, I discovered that port 25 was open. However, no service version was identified. I decided to connect to it using Telnet and Netcat, and that’s when I encountered a surprising result!</p>
+<h4 id="pre-exploitation"><span class="me-2">Pre Exploitation</span><a href="#pre-exploitation" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<p>During my enumeration process using Nmap and other tools, I discovered that port 25 was open. However, no service version was identified. I decided to connect to it using Telnet or Netcat, and that’s when I encountered a surprising result!</p>
 
-<p>1) Let’s connect to the SMTP service and try to send an email
-<a href="/assets/images/Network1.png" class="popup img-link  shimmer"><img src="/assets/images/Network1.png" alt="Alt text" loading="lazy"></a></p>
+<h4 id="dealing-with-smtp"><span class="me-2">Dealing with SMTP</span><a href="#dealing-with-smtp" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<p>Let’s walk through the steps of how to interact with an SMTP server using Telnet.</p>
+
+<p>1) <strong>Initiate Telnet Connection:</strong><br />
+To start, connect to the SMTP server using the following command:<br />
+<code class="language-plaintext highlighter-rouge">telnet &lt;SMTP_SERVER&gt; 25</code></p>
+
+<p>2) <strong>Server Response:</strong><br />
+The SMTP server responds with a greeting message:<br />
+<code class="language-plaintext highlighter-rouge">220 &lt;SMTP_SERVER&gt; Service ready.</code></p>
+
+<p>3) <strong>MAIL FROM Command:</strong><br />
+The client specifies the sender’s email address using the MAIL FROM command:<br />
+<code class="language-plaintext highlighter-rouge">MAIL FROM:&lt;sender_email&gt;</code><br />
+The server responds with:<br />
+<code class="language-plaintext highlighter-rouge">250 OK</code><br /></p>
+
+<p>4) <strong>RCPT TO Command:</strong><br />
+The client specifies the recipient’s email address using the RCPT TO command:<br />
+<code class="language-plaintext highlighter-rouge">RCPT TO:&lt;recipient_email&gt;</code><br />
+The server responds with:<br />
+<code class="language-plaintext highlighter-rouge">250 OK</code></p>
+
+<p>5) <strong>DATA Command:</strong><br />
+The client issues the DATA command to start the email content:<br />
+<code class="language-plaintext highlighter-rouge">DATA</code><br />
+The server responds with:<br />
+<code class="language-plaintext highlighter-rouge">354 Enter mail body, End mail with a '.' in column 1 on a line by itself.</code></p>
+
+<p>6) <strong>Email Content:</strong><br />
+The client types the email’s subject and body. In this case, the subject is “POC” and the body is:<br />
+<code class="language-plaintext highlighter-rouge">Subject: POC</code><br />
+and press enter to new line then write the body of the message. In this case, the subject is  <br />
+<code class="language-plaintext highlighter-rouge">this is a POC from the SMTP Server</code></p>
+
+<p>7) <strong>End of Data:</strong><br />
+The client ends the email body by entering a period (.) on a new line:<br />
+<code class="language-plaintext highlighter-rouge">.</code></p>
+
+<p>8) <strong>QUIT Command:</strong><br />
+<code class="language-plaintext highlighter-rouge">QUIT</code></p>
+
+<h4 id="poc"><span class="me-2">POC</span><a href="#poc" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<p>1) Let’s connect to the SMTP service and try to send an email</p>
+
+<p><a href="/assets/images/Network1.png" class="popup img-link  shimmer"><img src="/assets/images/Network1.png" alt="Alt text" loading="lazy"></a></p>
 
 <p>2) Let’s see if the email was sent.
 <a href="/assets/images/Network2.png" class="popup img-link  shimmer"><img src="/assets/images/Network2.png" alt="Alt text" loading="lazy"></a></p>
 
-<p>As we can see, the email was sent, and we were able to spoof internal emails.</p>
+<p><strong>As we can see, the email was sent, and we were able to spoof internal emails.</strong></p>
 
   </div>
 
