@@ -47,7 +47,7 @@ social:
 
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://media.licdn.com/dms/image/v2/D4D03AQGOvcQKPnSeJA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1686063896461?e=1752710400&v=beta&t=JPYSrD66P0_XqX_kYw7xOKrS1nJsbMDqUe4pFvXj-l8
+avatar: "/assets/images/Profile.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.

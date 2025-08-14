@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Hesham Saleh</title>
   <subtitle>blog, hesham, github .</subtitle>
-  <updated>2025-08-14T11:21:18+03:00</updated>
+  <updated>2025-08-14T11:38:00+03:00</updated>
   <author>
     <name>Hesham Saleh Elbady</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/0-Click-ATO-and-privilege-escalation/" rel="alternate" type="text/html" title="0-Click ATO and Privilege Escalation" />
     <published>2025-08-13T00:00:00+03:00</published>
   
-    <updated>2025-08-13T00:00:00+03:00</updated>
+    <updated>2025-08-14T11:30:49+03:00</updated>
   
     <id>http://localhost:4000/posts/0-Click-ATO-and-privilege-escalation/</id>
     <content type="text/html" src="http://localhost:4000/posts/0-Click-ATO-and-privilege-escalation/" />
@@ -51,7 +51,7 @@ Account Takeover (ATO) is a critical security vulnerability that allows an attac
     <link href="http://localhost:4000/posts/Spoofing-Any-Internal-Email/" rel="alternate" type="text/html" title="Spoofing Any Internal Email" />
     <published>2025-06-19T00:00:00+03:00</published>
   
-    <updated>2025-06-19T19:44:46+03:00</updated>
+    <updated>2025-08-14T11:30:49+03:00</updated>
   
     <id>http://localhost:4000/posts/Spoofing-Any-Internal-Email/</id>
     <content type="text/html" src="http://localhost:4000/posts/Spoofing-Any-Internal-Email/" />
