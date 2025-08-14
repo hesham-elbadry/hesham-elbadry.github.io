@@ -5,7 +5,7 @@ categories: [Web Penetration testing]
 tags: [Web Pentest]
 ---
 
-#### [Whoami](https://hesham2611.github.io/hesham.github.io/about/)
+#### [Whoami](https://hesham-elbadry.github.io/about/)
 
 #### Description:
 Account Takeover (ATO) is a critical security vulnerability that allows an attacker to gain unauthorized access to a legitimate user’s account. This can occur through various attack vectors, such as weak authentication mechanisms, credential stuffing, password reset flaws, insecure direct object references (IDOR), or session hijacking. Once access is gained, an attacker can perform actions on behalf of the legitimate user, leading to severe consequences such as unauthorized transactions, data theft, privilege escalation, or lateral movement within the application.
