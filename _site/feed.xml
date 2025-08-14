@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Hesham Saleh</title>
   <subtitle>blog, hesham, github .</subtitle>
-  <updated>2025-06-19T19:42:25+03:00</updated>
+  <updated>2025-08-14T11:21:18+03:00</updated>
   <author>
     <name>Hesham Saleh Elbady</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,38 @@
 
   
   <entry>
+    <title>0-Click ATO and Privilege Escalation</title>
+    <link href="http://localhost:4000/posts/0-Click-ATO-and-privilege-escalation/" rel="alternate" type="text/html" title="0-Click ATO and Privilege Escalation" />
+    <published>2025-08-13T00:00:00+03:00</published>
+  
+    <updated>2025-08-13T00:00:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/0-Click-ATO-and-privilege-escalation/</id>
+    <content type="text/html" src="http://localhost:4000/posts/0-Click-ATO-and-privilege-escalation/" />
+    <author>
+      <name>Hesham Saleh Elbady</name>
+    </author>
+
+  
+    
+    <category term="Web Penetration testing" />
+    
+  
+
+  <summary>Whoami
+
+Description:
+Account Takeover (ATO) is a critical security vulnerability that allows an attacker to gain unauthorized access to a legitimate user’s account. This can occur through various attack vectors, such as weak authentication mechanisms, credential stuffing, password reset flaws, insecure direct object references (IDOR), or session hijacking. Once access is gained, an attacker can...</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>Spoofing Any Internal Email</title>
     <link href="http://localhost:4000/posts/Spoofing-Any-Internal-Email/" rel="alternate" type="text/html" title="Spoofing Any Internal Email" />
     <published>2025-06-19T00:00:00+03:00</published>
   
-    <updated>2025-06-19T19:06:43+03:00</updated>
+    <updated>2025-06-19T19:44:46+03:00</updated>
   
     <id>http://localhost:4000/posts/Spoofing-Any-Internal-Email/</id>
     <content type="text/html" src="http://localhost:4000/posts/Spoofing-Any-Internal-Email/" />
